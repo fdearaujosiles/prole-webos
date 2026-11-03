@@ -114,6 +114,7 @@
     ['com.magine.filmicca', 'FILMICCA'],
     ['shortcutcopilot', 'Copilot'],
     ['com.miniclip.eightballpool', '8 Ball Pool'],
+    ['com.retroarch.webos', 'RetroArch'],
     ['com.palmdts.devmode', 'Developer Mode'],
     ['com.palm.app.settings', 'Settings']
   ];

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build, install, launch and screenshot ProleWebOS.
+# Build, install, launch and screenshot prole-webos.
 set -euo pipefail
 . "$(dirname "$0")/env.sh"
 

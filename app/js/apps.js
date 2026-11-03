@@ -1,5 +1,5 @@
 // Dock configuration. `ids` are tried in order; the first installed one wins.
-// At startup ProleWebOS also matches installed apps by title, so missing IDs
+// At startup prole-webos also matches installed apps by title, so missing IDs
 // are repaired automatically as long as the app title matches `name`.
 window.PROLE_CONFIG = {
   rotateSeconds: 30,

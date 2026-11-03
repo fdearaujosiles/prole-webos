@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replace ProleWebOS wallpapers with images from a folder.
+"""Replace prole-webos wallpapers with images from a folder.
 
 Usage:
     python scripts/set-wallpapers.py path/to/images
@@ -11,7 +11,7 @@ wallpaper assets and manifest are moved to backup/wallpapers/<timestamp>/ so
 nothing is lost.
 
 By default the script then runs scripts/package-install.sh, which builds,
-installs and launches ProleWebOS on the TV. Pass --no-deploy to stop after
+installs and launches prole-webos on the TV. Pass --no-deploy to stop after
 writing the files.
 
 Run scripts/gen-wallpapers.js to regenerate the original eight SVG scenes at
@@ -100,7 +100,7 @@ def archive_current() -> Path | None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Replace ProleWebOS wallpapers with images from a folder.")
+    parser = argparse.ArgumentParser(description="Replace prole-webos wallpapers with images from a folder.")
     parser.add_argument("folder", type=Path, help="folder containing the new wallpaper images")
     parser.add_argument("--quality", type=int, default=90, help="JPEG quality, 1-100 (default 90)")
     parser.add_argument("--no-deploy", action="store_true", help="write files only; do not build/install/launch")
@@ -177,7 +177,7 @@ def main() -> int:
         print("  bash scripts/package-install.sh", file=sys.stderr)
         return 0
 
-    print("\nBuilding, installing and launching ProleWebOS...")
+    print("\nBuilding, installing and launching prole-webos...")
     result = subprocess.run([bash, "scripts/package-install.sh"], cwd=str(ROOT))
     if result.returncode != 0:
         print("error: package-install.sh failed", file=sys.stderr)
