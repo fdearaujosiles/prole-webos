@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice"><defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fc6e8"/><stop offset="0.55" stop-color="#cfe8f2"/><stop offset="1" stop-color="#f4f1dc"/></linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff8dc" stop-opacity="0.45"/><stop offset="1" stop-color="#fff8dc" stop-opacity="0"/></radialGradient>
+    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fb887"/><stop offset="1" stop-color="#6f9a6b"/></linearGradient><linearGradient id="h2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f9a63"/><stop offset="1" stop-color="#4f784c"/></linearGradient><linearGradient id="h3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f7645"/><stop offset="1" stop-color="#35552f"/></linearGradient><linearGradient id="h4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f4a2a"/><stop offset="1" stop-color="#1a2c19"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <circle cx="1450" cy="220" r="230" fill="url(#sunGlow)"/>
+  <g opacity="0.55" fill="#ffffff">
+    <ellipse cx="360" cy="220" rx="210" ry="30"/>
+    <ellipse cx="244.5" cy="224.5" rx="115.5" ry="21.6"/>
+    <ellipse cx="465" cy="223" rx="126" ry="19.8"/>
+  </g>
+  <g opacity="0.4" fill="#ffffff">
+    <ellipse cx="900" cy="320" rx="280" ry="34"/>
+    <ellipse cx="746" cy="325.1" rx="154" ry="24.5"/>
+    <ellipse cx="1040" cy="323.4" rx="168" ry="22.4"/>
+  </g>
+  <g opacity="0.45" fill="#ffffff">
+    <ellipse cx="1560" cy="400" rx="190" ry="24"/>
+    <ellipse cx="1455.5" cy="403.6" rx="104.5" ry="17.3"/>
+    <ellipse cx="1655" cy="402.4" rx="114" ry="15.8"/>
+  </g>
+  <path d="M 0 558.5 Q 96 556.8 144 549.4 Q 192 542.1 240 533.8 Q 288 525.5 336 526.2 Q 384 527 432 532.7 Q 480 538.4 528 535.8 Q 576 533.1 624 520.3 Q 672 507.5 720 495.9 Q 768 484.4 816 479.2 Q 864 474 912 469 Q 960 464 1008 458.2 Q 1056 452.5 1104 455.4 Q 1152 458.3 1200 472.6 Q 1248 486.9 1296 500.2 Q 1344 513.5 1392 515.9 Q 1440 518.4 1488 516.5 Q 1536 514.7 1584 518.4 Q 1632 522 1680 527.9 Q 1728 533.9 1776 535.3 Q 1824 536.7 1872 538.1 L 1920 539.6 L 1920 1080 L 0 1080 Z" fill="url(#h1)"/><path d="M 0 650.2 Q 112.9 609.8 169.4 599.2 Q 225.9 588.7 282.4 590.2 Q 338.8 591.8 395.3 590.7 Q 451.8 589.6 508.2 587.5 Q 564.7 585.5 621.2 590.2 Q 677.6 594.9 734.1 595.8 Q 790.6 596.6 847.1 588.8 Q 903.5 580.9 960 582.2 Q 1016.5 583.4 1072.9 599.3 Q 1129.4 615.1 1185.9 628.5 Q 1242.4 641.8 1298.8 648.1 Q 1355.3 654.3 1411.8 662.2 Q 1468.2 670 1524.7 672.2 Q 1581.2 674.4 1637.6 662.8 Q 1694.1 651.1 1750.6 641.3 Q 1807.1 631.5 1863.5 634.5 L 1920 637.5 L 1920 1080 L 0 1080 Z" fill="url(#h2)"/><path d="M 0 724 Q 137.1 735.3 205.7 730.9 Q 274.3 726.6 342.9 728.6 Q 411.4 730.5 480 749 Q 548.6 767.5 617.1 777.5 Q 685.7 787.4 754.3 790.9 Q 822.9 794.3 891.4 795.6 Q 960 796.9 1028.6 783.4 Q 1097.1 769.9 1165.7 761.5 Q 1234.3 753.2 1302.9 757.7 Q 1371.4 762.2 1440 756.5 Q 1508.6 750.8 1577.1 742.4 Q 1645.7 734.1 1714.3 728.9 Q 1782.9 723.7 1851.4 711.8 L 1920 699.9 L 1920 1080 L 0 1080 Z" fill="url(#h3)"/><path d="M 0 897.3 Q 174.5 872.9 261.8 872.8 Q 349.1 872.7 436.4 880.7 Q 523.6 888.7 610.9 882.6 Q 698.2 876.5 785.5 882.7 Q 872.7 888.8 960 894.1 Q 1047.3 899.4 1134.5 918.2 Q 1221.8 937 1309.1 940 Q 1396.4 942.9 1483.6 933.8 Q 1570.9 924.7 1658.2 919.7 Q 1745.5 914.7 1832.7 907.9 L 1920 901.1 L 1920 1080 L 0 1080 Z" fill="url(#h4)"/>
+  <g opacity="0.35" stroke="#e8f3d0" stroke-width="2">
+    <line x1="120" y1="1000" x2="180" y2="940"/><line x1="1560" y1="1020" x2="1620" y2="950"/>
+  </g></svg>

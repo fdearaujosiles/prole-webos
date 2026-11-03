@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>prole-webos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="bg" aria-hidden="true">
+    <div class="wall" id="wallA"></div>
+    <div class="wall" id="wallB"></div>
+    <div id="vignette"></div>
+  </div>
+
+  <header id="top">
+    <div id="clock">--:--</div>
+    <div id="date"></div>
+  </header>
+
+  <div id="brand" aria-hidden="true"><span class="dot"></span>PROLE&#8209;WEBOS</div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <nav id="dock" aria-label="Dock"></nav>
+
+  <div id="overlay" aria-hidden="true">
+    <div id="overlay-head">
+      <h1 id="overlay-title">All apps</h1>
+      <div id="overlay-sub"></div>
+    </div>
+    <div id="overlay-grid"></div>
+  </div>
+
+  <footer id="hint">
+    <span>&#8592; &#8594;</span> SELECT
+    <span class="sep">&middot;</span> OK OPEN
+    <span class="sep">&middot;</span> &#8593; &#8595; WALLPAPER
+    <span class="sep">&middot;</span> BACK EXIT
+  </footer>
+
+  <script src="webOSTVjs/webOSTV.js"></script>
+  <script src="js/wallpapers.js"></script>
+  <script src="js/apps.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

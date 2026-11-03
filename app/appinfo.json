@@ -1,0 +1,18 @@
+{
+  "id": "com.fdear.prolewebos",
+  "version": "1.4.0",
+  "vendor": "fdear",
+  "type": "web",
+  "main": "index.html",
+  "title": "prole-webos",
+  "appDescription": "A quiet, fast home screen for webOS TV.",
+  "icon": "assets/icon.png",
+  "largeIcon": "assets/icon-large.png",
+  "splashBackground": "assets/splash.png",
+  "bgColor": "#04070d",
+  "iconColor": "#2ef2c0",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true,
+  "handlesRelaunch": false,
+  "requiredPermissions": ["applications", "applications.launcher"]
+}

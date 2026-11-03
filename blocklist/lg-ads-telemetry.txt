@@ -1,0 +1,47 @@
+# LG webOS — ads, ACR and telemetry domains
+#
+# Conservative DNS blocklist for an LG webOS TV (2025, webOS 10).
+# Apply at your router's DNS filter, Pi-hole, AdGuard Home, or NextDNS.
+#
+# Deliberately NOT blocked (blocking these breaks core TV functions):
+#   lge.com / lg.com          firmware update + device identity
+#   lgappstv.com (base)       LG Content Store, app installs/updates
+#   app.lgappstv.com          Content Store CDN
+#   lgsvc.com                 LG service/account
+#   netflix.com, nflxvideo.net, youtube.com, googlevideo.com, amazonaws.com,
+#   disneyplus.com, apple.com, hbomax.com, stremio.com — your streaming apps
+#
+# Format: hosts-file syntax (0.0.0.0 <domain>). Most Pi-hole/AdGuard
+# "import list" screens accept plain domains too; the domain is the 2nd field.
+
+# --- LG Ads (lgsmartad) -------------------------------------------------
+0.0.0.0 lgsmartad.com
+0.0.0.0 ad.lgsmartad.com
+0.0.0.0 ads.lgsmartad.com
+0.0.0.0 info.lgsmartad.com
+0.0.0.0 us.ad.lgsmartad.com
+0.0.0.0 us.ads.lgsmartad.com
+0.0.0.0 us.info.lgsmartad.com
+0.0.0.0 kr.ad.lgsmartad.com
+0.0.0.0 kr.info.lgsmartad.com
+0.0.0.0 eu.ad.lgsmartad.com
+0.0.0.0 eu.info.lgsmartad.com
+0.0.0.0 de.info.lgsmartad.com
+0.0.0.0 gb.info.lgsmartad.com
+
+# --- LG TV Service Data Platform (ACR / viewing data / analytics) --------
+0.0.0.0 lgtvsdp.com
+0.0.0.0 us.lgtvsdp.com
+0.0.0.0 kr.lgtvsdp.com
+0.0.0.0 eu.lgtvsdp.com
+
+# --- LG app-platform ad endpoints (subdomains only) ----------------------
+# Keep the base domain lgappstv.com unblocked: it serves the Content Store.
+0.0.0.0 us.ibs.lgappstv.com
+0.0.0.0 kr.ibs.lgappstv.com
+0.0.0.0 eu.ibs.lgappstv.com
+
+# --- Samba TV automatic content recognition (optional) -------------------
+# Only affects ACR; the TV and its apps keep working.
+# Comment this out if you use Samba-TV-powered features.
+0.0.0.0 samba.tv

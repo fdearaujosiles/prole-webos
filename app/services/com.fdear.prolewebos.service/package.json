@@ -1,0 +1,5 @@
+{
+  "name": "com.fdear.prolewebos.service",
+  "version": "1.4.0",
+  "main": "service.js"
+}

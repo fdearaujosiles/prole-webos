@@ -1,0 +1,25 @@
+{
+  "name": "prole-webos",
+  "version": "1.4.0",
+  "description": "Reversible LG webOS TV debloat plus a quiet, fast home screen for webOS TV.",
+  "main": "index.js",
+  "scripts": {
+    "test": "python scripts/selftest.py",
+    "scan": "node scripts/scan.js",
+    "connect": "bash scripts/connect.sh",
+    "backup": "bash scripts/backup.sh",
+    "debloat": "python scripts/debloat.py",
+    "install-app": "bash scripts/package-install.sh",
+    "restore": "bash scripts/restore.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@webos-tools/cli": "^3.2.6"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

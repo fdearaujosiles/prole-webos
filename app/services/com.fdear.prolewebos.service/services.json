@@ -1,0 +1,10 @@
+{
+  "id": "com.fdear.prolewebos.service",
+  "description": "prole-webos app catalog",
+  "services": [
+    {
+      "name": "com.fdear.prolewebos.service",
+      "description": "prole-webos app catalog"
+    }
+  ]
+}

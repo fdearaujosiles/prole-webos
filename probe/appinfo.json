@@ -1,0 +1,14 @@
+{
+  "id": "com.fdear.probe",
+  "version": "0.0.1",
+  "vendor": "fdear",
+  "type": "web",
+  "main": "index.html",
+  "title": "Aurora Probe",
+  "appDescription": "Temporary capability probe for the Aurora debloat work.",
+  "icon": "assets/icon.png",
+  "bgColor": "#04070d",
+  "iconColor": "#2ef2c0",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true
+}
