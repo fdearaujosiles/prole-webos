@@ -74,6 +74,47 @@ npm test    # python scripts/selftest.py
 The self-test exercises the backup/debloat/restore pipeline against a local
 fixture; it does not touch the TV.
 
+## How this is built (AI-assisted)
+
+This repo is developed by the owner working with AI coding agents
+(OpenClaude). The human sets direction and approves anything outward-facing;
+agents do the research, code, TV deployment and documentation.
+
+**Process**
+
+1. **Context first.** An agent reads [`quick-context.md`](quick-context.md)
+   (environment, hard rules, gotchas), then the relevant section of
+   `PROLEWEBOS.md`. The docs are a working brief, not marketing: verified facts
+   are recorded with the date they were checked.
+2. **Local work.** Edit code or scripts, run `npm test`, build the IPK with
+   `ares-package`, and syntax-check JSON/JS/Python.
+3. **Verify on the real TV.** Install over Developer Mode, relaunch, and read
+   the live state back over CDP and the Luna service: installed appinfo, asset
+   hashes, the actual All-apps catalog, `localStorage`. A change is not done
+   because it builds; it is done when the TV agrees.
+4. **Independent review.** Non-trivial changes get a second, separate agent
+   pass that audits the diff, rename completeness, documentation accuracy,
+   secret hygiene and test/build output, then reports PASS/FAIL/PARTIAL.
+   Findings are fixed and the pass repeats until clean.
+5. **Human sign-off.** The agent reports the evidence and asks the G30
+   question below before touching the remote.
+
+**Guardrails**
+
+- Non-root only; no system-partition writes.
+- Back up before changing anything; every debloat write is verified and
+  reversible.
+- No app uninstalls without explicit approval.
+- Secrets (SSAP client key, GitHub tokens) are never printed, committed, or
+  sent anywhere.
+- Documentation and code ship together; a stale statement is treated as a bug.
+
+**What "AI-assisted" means here:** the loop is fast but not unsupervised. The
+owner decides scope and approves pushes, while agents are expected to verify
+claims against the device rather than assert them. Limits are recorded too — if
+a model cannot inspect images, splash branding is proven by the generator
+source plus matching asset hashes rather than by "looks right".
+
 ## Documentation
 
 - [`quick-context.md`](quick-context.md) — short, high-signal brief for agents

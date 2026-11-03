@@ -87,7 +87,7 @@ list can contain an entry missing from a still-open All-apps grid.
 | App id | `com.fdear.prolewebos` — new identity from 1.4.0; keep it stable (installed identity, app storage, package name) |
 | Display title | `prole-webos` (app title, DOM title, brand and splash) |
 | Project/vendor | `fdear`, app type `web`, main `index.html`, resolution `1920x1080` |
-| GitHub | Private repo `fdearaujosiles/prole-webos` — https://github.com/fdearaujosiles/prole-webos (remote `origin`) |
+| GitHub | Public repo `fdearaujosiles/prole-webos` — https://github.com/fdearaujosiles/prole-webos (remote `origin`) |
 | Service id | `com.fdear.prolewebos.service`, v1.4.0, `service.js` |
 | TV model | 55QNED75SRA (2025 QNED, webOS 25) |
 | TV firmware | 33.31.75 (Linux 5.4 class; exact SoC details in `backup/2026-11-03/raw/systeminfo.json`) |

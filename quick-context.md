@@ -11,7 +11,7 @@ in `RUNBOOK.md`.
   dock, All apps / Inputs / Settings overlays.
 - **Debloat toolkit** — backs up and reversibly changes 11 TV settings, plus a
   DNS blocklist. Nothing is rooted.
-- Private GitHub repo: `fdearaujosiles/prole-webos` (remote `origin`).
+- Public GitHub repo: `fdearaujosiles/prole-webos` (remote `origin`).
 
 ## Environment
 
