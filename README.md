@@ -76,6 +76,8 @@ fixture; it does not touch the TV.
 
 ## Documentation
 
+- [`quick-context.md`](quick-context.md) — short, high-signal brief for agents
+  (environment, hard rules, verification gotchas).
 - [`PROLEWEBOS.md`](PROLEWEBOS.md) — architecture, feature inventory, verified
   TV state, build/deploy, troubleshooting and the change log.
 - [`RUNBOOK.md`](RUNBOOK.md) — step-by-step non-root debloat, backup, install,
